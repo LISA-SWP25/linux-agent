@@ -1,0 +1,5 @@
+commands:
+  - firefox https://news.ycombinator.com
+  - cp ~/Документы/file.txt /tmp/
+  - man bash
+  - xdg-open ~/Загрузки

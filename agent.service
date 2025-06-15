@@ -1,0 +1,12 @@
+[Unit]
+Description=Linux Activity Agent
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /opt/linux_agent/agent.py
+WorkingDirectory=/opt/linux_agent
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
