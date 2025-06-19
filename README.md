@@ -12,24 +12,12 @@ This agent runs as root and emulates the actions of users with different roles.:
 
 ## Iinstalling
 
-1. Clone or unpack in `/opt/linux_agent`
-2. Install Dependencies:
-    sudo apt install python3 python3-pip xdotool
-    pip install pyyaml
+Usage on target machine:
+# Unpack archive
+tar -xzf linux_activity_agent.tar.gz
 
-3. Сreate users:
-    sudo useradd -m admin
-    sudo useradd -m developer
-    sudo useradd -m user
-    sudo usermod -aG sudo admin
+# Install (will install all applications automatically)
+sudo ./install_agent.sh
 
-4. Add in `/etc/sudoers`:
-    admin ALL=(ALL) NOPASSWD:ALL
-    developer ALL=(ALL) NOPASSWD:ALL
-    user ALL=(ALL) NOPASSWD:ALL
+# The agent will start automatically and will run on schedule.
 
-5. Install and run the service:
-    sudo cp agent.service /etc/systemd/system/
-    sudo systemctl daemon-reexec
-    sudo systemctl enable agent
-    sudo systemctl start agent
