@@ -1,7 +1,0 @@
-run_interval_min: 30
-run_interval_max: 90
-log_file: agent.log
-users:
-  - admin
-  - developer
-  - user
