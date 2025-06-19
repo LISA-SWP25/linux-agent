@@ -1,5 +1,0 @@
-commands:
-  - apt update
-  - systemctl restart apache2
-  - cat /etc/passwd
-  - journalctl -xe
