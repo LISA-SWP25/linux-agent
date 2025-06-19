@@ -1,5 +1,0 @@
-commands:
-  - git clone https://github.com/example/repo.git
-  - cd repo && make
-  - nano main.c
-  - ls -la
