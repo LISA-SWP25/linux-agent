@@ -10,14 +10,14 @@ This agent runs as root and emulates the actions of users with different roles.:
 - Metrics (execution time, errors)
 - Systemd service
 
-## Iinstalling
+# Iinstalling
 
 Usage on target machine:
-# Unpack archive
+## Unpack archive
 tar -xzf linux_activity_agent.tar.gz
 
-# Install (will install all applications automatically)
+## Install (will install all applications automatically)
 sudo ./install_agent.sh
 
-# The agent will start automatically and will run on schedule.
+## The agent will start automatically and will run on schedule.
 
