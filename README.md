@@ -16,7 +16,7 @@ Usage on target machine:
 1. Unpack archive:
   tar -xzf linux_activity_agent.tar.gz
 
-2. Install (will install all applications automatically)
+2. Install (will install all applications automatically):
   sudo ./install_agent.sh
 
 3. The agent will start automatically and will run on schedule.
